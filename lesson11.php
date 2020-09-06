@@ -16,7 +16,7 @@ $evenNumbers = array_filter(
     // }
     // return $n % === 0;
   // }
-   fn($n) => $n % 2 === 0
+   fn($n) -> $n % 2 === 0
 );
 
 print_r($evenNumbers);
